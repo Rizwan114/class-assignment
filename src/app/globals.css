@@ -1,0 +1,101 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+
+.green {
+  color:rgb(70, 78, 151);
+}
+
+
+.body {
+  background-color: aqua;
+}
+
+.help {
+  color: rgba(179, 15, 15, 0.997);
+}
+
+.home{
+  background-color: aqua;
+}
+
+.home1{
+  color: rgb(48, 2, 155);
+}
+.p{
+  color: rgb(177, 7, 203);
+}
+
+.s{
+  background-color: aqua;
+}
+
+.sn{
+  color: blue;
+}
+
+.ps{
+  color: rgb(177, 7, 203);
+}
+.a {
+  background-color: aqua;
+
+}
+.ap {
+  color: rgb(59, 7, 203);;
+}
+
+.i{
+  color: deeppink;
+}
+
+
+.text{
+  text-align: right;
+  font-family:fantasy;
+  margin: 20px;
+  padding-left: 10px;
+  color: rgb(105, 59, 233);
+  cursor:pointer rgb(0, 109, 29);
+  
+}
